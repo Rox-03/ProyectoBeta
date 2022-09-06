@@ -1,0 +1,31 @@
+body{
+	overflow: hidden;
+	background-color: black;
+}
+
+#Conten{
+	background-color: greenyellow;
+	text-align: center;
+	margin: 0% 25%;
+	word-wrap: break-word;
+}
+
+#BoxStart{
+	background-color: darkred;
+}
+
+#BoxCenter{
+	background-color: darkred;
+	margin: 200px 0px;
+	font-display: block;
+}
+
+#BoxEnd{
+	background-color: darkred;
+	position: relative;
+	margin: 250px 0px;
+}
+
+#IconoDw{
+	width: 5vw;
+}
