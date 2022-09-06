@@ -1,12 +1,13 @@
 body{
 	overflow: hidden;
 	background-color: black;
+	font-family: LetraPocoComun;
 }
 
 #Conten{
 	background-color: greenyellow;
 	text-align: center;
-	margin: 0% 25%;
+	margin: 0% 10%;
 	word-wrap: break-word;
 }
 
@@ -16,7 +17,7 @@ body{
 
 #BoxCenter{
 	background-color: darkred;
-	margin: 200px 0px;
+	margin: 240px 0px;
 	font-display: block;
 }
 
@@ -27,5 +28,22 @@ body{
 }
 
 #IconoDw{
-	width: 5vw;
+	padding: 0px;
+	display: inline;
+	margin: 0px;
+	width: 2vw;
+}
+
+#texto01{
+	padding: 10px;
+	display: inline;
+	margin: 0px;
+	font-size: 25px;
+}
+
+@font-face{
+	font-family: LetraPocoComun;
+	src: url(Fuentes/RiveraFuenteLetra.otf);
+	font-style: normal;
+	font-weight: normal;
 }
